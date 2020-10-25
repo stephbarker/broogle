@@ -1,0 +1,14 @@
+/* Google Fonts Sarala */
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
