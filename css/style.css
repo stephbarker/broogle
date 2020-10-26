@@ -1,6 +1,12 @@
 /* Google Fonts Sarala */
 @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
 
+:root {
+    --primary-brand-color:  rgb(255, 183, 27);
+    --shadow-color:  rgb(169, 169, 169);
+    --secondary-brand-color: rgb(128, 128, 128);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,4 +17,52 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+img {
+    position: absolute;
+    height: 90px;
+    width: 100px;
+    margin-left: 810px;
+    margin-top: 90px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Sarala", Helvatica;
+    font-size: 100px;
+    color: var(--primary-brand-color);
+    text-shadow: 1px 1px var(--shadow-color); 
+}
+
+#tagline {
+    text-align: center;
+    color: var(--secondary-brand-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search {
+    margin: 20px 0 20px 0;
+    width: 50%;
+    height: 35px;
+    border: 2px solid var(--shadow-color);
+}
+
+#button {
+    width: 12%;
+    border: 2px solid var(--secondary-brand-color);
+}
+
+footer {
+    text-align: center;
 }
