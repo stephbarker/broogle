@@ -23,7 +23,7 @@ img {
     position: absolute;
     height: 90px;
     width: 100px;
-    margin-left: 810px;
+    margin-left: 800px;
     margin-top: 90px;
 }
 
@@ -65,4 +65,47 @@ form {
 
 footer {
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+}
+
+#collection {
+    flex-wrap: wrap;
+}
+
+/*.outline {
+    border: 1px dotted blue;
+}*/
+
+.brewery {
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 2px solid var(--secondary-brand-color);
+    box-shadow: 1px 1px 12px 1px var(--shadow-color);
+    justify-content: space-around;
+}
+
+h4, a {
+    color: var(--primary-brand-color);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Sarala, Helvetica;
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+    font-size: 20px;
+    color: var(--secondary-brand-color);
 }
