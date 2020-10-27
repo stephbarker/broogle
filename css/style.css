@@ -139,4 +139,9 @@ a:hover {
         align-items: center;
         font-size: 75px;
     }
+
+    #beer {
+        height: 70px;
+        width: 80px;
+    }
 }
