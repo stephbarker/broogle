@@ -2,7 +2,6 @@
 const $form = $('form')
 const $collection = $('#collection')
 
-
 //Event Listners
 $form.on('submit', handleGetData)
 
@@ -23,6 +22,9 @@ function handleGetData(event) {
                 </article>
                 `
             })
-            $collection.html(htmlArray);   
-    })
-}
+            $collection.html(htmlArray);
+            $collection.hide().fadeIn(2000);
+        })
+    } 
+
+
