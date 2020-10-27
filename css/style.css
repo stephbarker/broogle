@@ -96,7 +96,7 @@ footer {
     border-radius: 12px;
     border: 2px solid var(--secondary-brand-color);
     box-shadow: 1px 1px 12px 1px var(--shadow-color);
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 15px;
     text-shadow: 0.5px 0.5px var(--shadow-color);
 }
@@ -104,7 +104,7 @@ footer {
 h4, a {
     color: var(--primary-brand-color);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     font-family: Sarala, Helvetica;
     text-align: center;
 }
@@ -124,4 +124,19 @@ a:hover {
     font-size: 20px;
     color: var(--secondary-brand-color);
     padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    #button {
+        width: 20%;
+    }
+    #search {
+        width: 70%;
+    }
+
+    h1 {
+        justify-content: center;
+        align-items: center;
+        font-size: 75px;
+    }
 }
