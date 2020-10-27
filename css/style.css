@@ -5,7 +5,7 @@
     --primary-brand-color:  rgb(255, 183, 27);
     --shadow-color:  rgb(169, 169, 169);
     --secondary-brand-color: rgb(128, 128, 128);
-    --website-color: rgb(224, 255, 255);
+    --website-color:rgb(232,240,254);
 }
 
 * {
@@ -20,13 +20,12 @@ body {
     min-height: 100vh;
 }
 
-img {
+#beer {
     position: absolute;
     height: 90px;
     width: 100px;
-    margin-left: 800px;
-    margin-top: 90px;
     border-radius: 40px;
+    margin-bottom: 35px;
     
 }
 
@@ -40,7 +39,8 @@ h1 {
     font-family: "Sarala", Helvatica;
     font-size: 100px;
     color: var(--primary-brand-color);
-    text-shadow: 1px 1px var(--shadow-color); 
+    text-shadow: 1px 1px var(--shadow-color);
+    position: relative;
 }
 
 #tagline {
@@ -77,8 +77,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    margin-bottom: 25px;
-   
+    margin-bottom: 25px;  
 }
 
 #collection {
@@ -108,7 +107,6 @@ h4, a {
     font-size: 25px;
     font-family: Sarala, Helvetica;
     text-align: center;
-
 }
 
 a {
